@@ -4,16 +4,16 @@ Este proyecto permite ejecutar diversos scripts en Python, PowerShell y Bash des
 
 ## Scripts incluidos
 
-1. **API_IPABUSE.py** - Analiza IPs en relación con abusos conocidos.
-2. **Complejo.py** - Calcula la complejidad de un conjunto de datos.
-3. **deteccion.py** - Realiza detección de patrones en datos.
-4. **escaneo_puertos.sh** - Escanea puertos en una red específica.
-5. **ListadoDeArchivosOcultos.psm1** - Lista archivos ocultos en el sistema.
-6. **modulo2.psm1** - Ejecuta funciones del segundo módulo de PowerShell.
-7. **Modulo_UsoRecursos.psm1** - Monitorea el uso de recursos del sistema.
-8. **Monitoreo_Red.sh** - Realiza monitoreo de tráfico de red.
-9. **trafico.py** - Analiza el tráfico de red en tiempo real.
-10. **virus.psm1** - Proporciona funciones para gestionar virus y malware.
+        1: "API_IPABUSE.py - Utiliza la API de IPAbuse para verificar y reportar IPs.",
+        2: "Complejo.py - Encripta y desencripta mensajes.",
+        3: "deteccion.py - Realiza un ataque de fuerza bruta a un servidor SSH.",
+        4: "escaneo_puertos.sh - Escanea puertos de una IP.",
+        5: "ListadoDeArchivosOcultos.ps1 - Muestra una lista de archivos ocultos en el sistema.",
+        6: "Modulo_UsoRecursos.ps1 - Monitorea el uso de recursos del sistema.",
+        7: "Monitoreo_Red.sh - Realiza monitoreo de tráfico de red.",
+        8: "trafico.py - Analiza el tráfico de red.",
+        9: "virus.ps1 - Utiliza la API de VirusTotal para comparar los hash de una lista de archivos.",
+        10: "API_Shodan.py - Utiliza la API de Shodan para obtener información de una IP."
 
 #usted puede de esta manera instalar el repositorio 
 
@@ -28,6 +28,10 @@ Este proyecto permite ejecutar diversos scripts en Python, PowerShell y Bash des
 
 ## Uso
 
-Ejecuta el script principal `menu_principal.py`:
-```bash
+desde la consola
+en PowerShell:
 python menu_principal.py -o <opción>
+tambien lo puedes ejecutar dando doble click en el, solo asegurate que este en la misma carpeta que los modulos
+
+en Bash:
+python3 menu_principal.py -o <opción>
